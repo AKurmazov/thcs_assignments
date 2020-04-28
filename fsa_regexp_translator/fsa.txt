@@ -1,0 +1,5 @@
+states=[q0,q1,q2]
+alpha=[0,1]
+init.st=[q0]
+fin.st=[q1]
+trans=[q0>1>q1,q0>0>q2,q1>0>q1,q1>1>q1,q2>0>q2,q2>1>q2]
